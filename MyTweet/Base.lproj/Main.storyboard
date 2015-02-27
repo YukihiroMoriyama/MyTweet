@@ -59,7 +59,11 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="タイムライン" id="gon-Uy-eS0">
                         <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="02V-ol-Q62"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="HEu-QW-gQg"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="HEu-QW-gQg">
+                            <connections>
+                                <action selector="tweetButton" destination="vXZ-lx-hvc" id="akK-Vd-sOa"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>

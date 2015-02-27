@@ -14,6 +14,11 @@
 
 @implementation ViewController
 
+-(IBAction)tweetButton {
+    SLComposeViewController *twitterPostViewController = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+    [self presentViewController:twitterPostViewController animated:YES completion:nil];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
