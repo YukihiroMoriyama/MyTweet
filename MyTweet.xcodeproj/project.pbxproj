@@ -14,6 +14,8 @@
 		E2DAD07E1AA0A8D100AD6C64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DAD07D1AA0A8D100AD6C64 /* Images.xcassets */; };
 		E2DAD0811AA0A8D100AD6C64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2DAD07F1AA0A8D100AD6C64 /* LaunchScreen.xib */; };
 		E2DAD08D1AA0A8D100AD6C64 /* MyTweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DAD08C1AA0A8D100AD6C64 /* MyTweetTests.m */; };
+		E2DAD0971AA0AA9D00AD6C64 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DAD0961AA0AA9D00AD6C64 /* Accounts.framework */; };
+		E2DAD0991AA0AAA400AD6C64 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DAD0981AA0AAA400AD6C64 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		E2DAD0861AA0A8D100AD6C64 /* MyTweetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTweetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DAD08B1AA0A8D100AD6C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2DAD08C1AA0A8D100AD6C64 /* MyTweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTweetTests.m; sourceTree = "<group>"; };
+		E2DAD0961AA0AA9D00AD6C64 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		E2DAD0981AA0AAA400AD6C64 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DAD0991AA0AAA400AD6C64 /* Social.framework in Frameworks */,
+				E2DAD0971AA0AA9D00AD6C64 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,8 @@
 		E2DAD0641AA0A8D000AD6C64 = {
 			isa = PBXGroup;
 			children = (
+				E2DAD0981AA0AAA400AD6C64 /* Social.framework */,
+				E2DAD0961AA0AA9D00AD6C64 /* Accounts.framework */,
 				E2DAD06F1AA0A8D100AD6C64 /* MyTweet */,
 				E2DAD0891AA0A8D100AD6C64 /* MyTweetTests */,
 				E2DAD06E1AA0A8D100AD6C64 /* Products */,
